@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="55f659d7-d2c6-45ac-a129-614474aae8a3" name="Ahmed@DELL 2018-07-26 06:42:56" runUser="DELL\Ahmed" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="40cbb934-d32b-4dfe-9603-21597a976ec1">
+    <Deployment userDeploymentRoot="C:\Users\Ahmed\Documents\Visual Studio 2015\Projects\Bank" useDefaultDeploymentRoot="false" runDeploymentRoot="Ahmed_DELL 2018-07-26 06_42_56" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-07-26T06:42:56.2001397+02:00" queuing="2018-07-26T06:42:59.1720645+02:00" start="2018-07-26T06:42:59.4192280+02:00" finish="2018-07-26T06:43:00.2838058+02:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="6" executed="6" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Debit_WithValideAmount_UpdatesBalance" storage="c:\users\ahmed\documents\visual studio 2015\projects\bank\banktest\bin\debug\banktest.dll" id="1b82bdf8-95c6-513e-e307-7b65b8174d6a">
+      <Execution id="d5cb6060-f286-4253-8b8c-cba4d0f2b122" />
+      <TestMethod codeBase="C:/Users/Ahmed/Documents/Visual Studio 2015/Projects/Bank/BankTest/bin/Debug/BankTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BankTest.BankAccountTest, BankTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Debit_WithValideAmount_UpdatesBalance" />
+    </UnitTest>
+    <UnitTest name="InCompleted_Test_Method" storage="c:\users\ahmed\documents\visual studio 2015\projects\bank\banktest\bin\debug\banktest.dll" id="d793dfe6-8b4f-f190-a196-9c210eeea3a6">
+      <Execution id="238d4d6b-f2d7-47ca-81d6-d82462964cc0" />
+      <TestMethod codeBase="C:/Users/Ahmed/Documents/Visual Studio 2015/Projects/Bank/BankTest/bin/Debug/BankTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BankTest.BankAccountTest, BankTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InCompleted_Test_Method" />
+    </UnitTest>
+    <UnitTest name="Debit_WithAmountMoreThanBalance_ThrowsArgumentOutOfRangeException" storage="c:\users\ahmed\documents\visual studio 2015\projects\bank\banktest\bin\debug\banktest.dll" id="9f4ab3a6-2950-f040-0dde-7db21ea662d8">
+      <Execution id="8a9ae926-f185-4e4f-9050-80a7a4b59bce" />
+      <TestMethod codeBase="C:/Users/Ahmed/Documents/Visual Studio 2015/Projects/Bank/BankTest/bin/Debug/BankTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BankTest.BankAccountTest, BankTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Debit_WithAmountMoreThanBalance_ThrowsArgumentOutOfRangeException" />
+    </UnitTest>
+    <UnitTest name="BankAccount_MultipleObjects_AllCorrect" storage="c:\users\ahmed\documents\visual studio 2015\projects\bank\banktest\bin\debug\banktest.dll" id="3b284dc7-570e-a39d-0167-a5f966710975">
+      <Execution id="2b1d28f5-b6bb-4c70-9d07-e19b2fd62235" />
+      <TestMethod codeBase="C:/Users/Ahmed/Documents/Visual Studio 2015/Projects/Bank/BankTest/bin/Debug/BankTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BankTest.BankAccountTest, BankTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BankAccount_MultipleObjects_AllCorrect" />
+    </UnitTest>
+    <UnitTest name="Debit_WithAmountLessThanZero_ThrowsArgumentOutOfRangeException" storage="c:\users\ahmed\documents\visual studio 2015\projects\bank\banktest\bin\debug\banktest.dll" id="9a88774e-310f-0e3f-a19c-78380517bc82">
+      <Execution id="0ec04ee0-d4cd-456e-95ab-55fe574777d3" />
+      <TestMethod codeBase="C:/Users/Ahmed/Documents/Visual Studio 2015/Projects/Bank/BankTest/bin/Debug/BankTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BankTest.BankAccountTest, BankTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Debit_WithAmountLessThanZero_ThrowsArgumentOutOfRangeException" />
+    </UnitTest>
+    <UnitTest name="BankAccount_MultipleObjects_NotCorrect" storage="c:\users\ahmed\documents\visual studio 2015\projects\bank\banktest\bin\debug\banktest.dll" id="b6a4c14d-6388-be41-5c9a-831d21da3cb7">
+      <Execution id="a3bb87d2-ba47-468c-9e44-55f781e764fd" />
+      <TestMethod codeBase="C:/Users/Ahmed/Documents/Visual Studio 2015/Projects/Bank/BankTest/bin/Debug/BankTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BankTest.BankAccountTest, BankTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BankAccount_MultipleObjects_NotCorrect" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3b284dc7-570e-a39d-0167-a5f966710975" executionId="2b1d28f5-b6bb-4c70-9d07-e19b2fd62235" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6a4c14d-6388-be41-5c9a-831d21da3cb7" executionId="a3bb87d2-ba47-468c-9e44-55f781e764fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a88774e-310f-0e3f-a19c-78380517bc82" executionId="0ec04ee0-d4cd-456e-95ab-55fe574777d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f4ab3a6-2950-f040-0dde-7db21ea662d8" executionId="8a9ae926-f185-4e4f-9050-80a7a4b59bce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b82bdf8-95c6-513e-e307-7b65b8174d6a" executionId="d5cb6060-f286-4253-8b8c-cba4d0f2b122" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d793dfe6-8b4f-f190-a196-9c210eeea3a6" executionId="238d4d6b-f2d7-47ca-81d6-d82462964cc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2b1d28f5-b6bb-4c70-9d07-e19b2fd62235" testId="3b284dc7-570e-a39d-0167-a5f966710975" testName="BankAccount_MultipleObjects_AllCorrect" computerName="DELL" duration="00:00:00.0737165" startTime="2018-07-26T06:42:59.5102905+02:00" endTime="2018-07-26T06:43:00.1076875+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b1d28f5-b6bb-4c70-9d07-e19b2fd62235">
+    </UnitTestResult>
+    <UnitTestResult executionId="a3bb87d2-ba47-468c-9e44-55f781e764fd" testId="b6a4c14d-6388-be41-5c9a-831d21da3cb7" testName="BankAccount_MultipleObjects_NotCorrect" computerName="DELL" duration="00:00:00.0010069" startTime="2018-07-26T06:43:00.1106907+02:00" endTime="2018-07-26T06:43:00.1156935+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3bb87d2-ba47-468c-9e44-55f781e764fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ec04ee0-d4cd-456e-95ab-55fe574777d3" testId="9a88774e-310f-0e3f-a19c-78380517bc82" testName="Debit_WithAmountLessThanZero_ThrowsArgumentOutOfRangeException" computerName="DELL" duration="00:00:00.0135121" startTime="2018-07-26T06:43:00.1277021+02:00" endTime="2018-07-26T06:43:00.1467142+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ec04ee0-d4cd-456e-95ab-55fe574777d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a9ae926-f185-4e4f-9050-80a7a4b59bce" testId="9f4ab3a6-2950-f040-0dde-7db21ea662d8" testName="Debit_WithAmountMoreThanBalance_ThrowsArgumentOutOfRangeException" computerName="DELL" duration="00:00:00.0014990" startTime="2018-07-26T06:43:00.1497168+02:00" endTime="2018-07-26T06:43:00.1557225+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a9ae926-f185-4e4f-9050-80a7a4b59bce">
+    </UnitTestResult>
+    <UnitTestResult executionId="d5cb6060-f286-4253-8b8c-cba4d0f2b122" testId="1b82bdf8-95c6-513e-e307-7b65b8174d6a" testName="Debit_WithValideAmount_UpdatesBalance" computerName="DELL" duration="00:00:00.0011078" startTime="2018-07-26T06:43:00.1667276+02:00" endTime="2018-07-26T06:43:00.1707297+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5cb6060-f286-4253-8b8c-cba4d0f2b122">
+    </UnitTestResult>
+    <UnitTestResult executionId="238d4d6b-f2d7-47ca-81d6-d82462964cc0" testId="d793dfe6-8b4f-f190-a196-9c210eeea3a6" testName="InCompleted_Test_Method" computerName="DELL" duration="00:00:00.0335643" startTime="2018-07-26T06:43:00.1717309+02:00" endTime="2018-07-26T06:43:00.2107570+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="238d4d6b-f2d7-47ca-81d6-d82462964cc0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Incompleted test</Message>
+          <StackTrace>   at BankTest.BankAccountTest.InCompleted_Test_Method() in c:\Users\Ahmed\documents\visual studio 2015\Projects\Bank\BankTest\BankAccountTest.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
