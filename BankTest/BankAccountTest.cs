@@ -89,17 +89,17 @@ namespace BankTest
             BankAssert.IsValidBankCode("12345");
         }
 
-        //[TestMethod]
-        //public void InCompleted_Test_Method()
-        //{
-        //    Assert.Inconclusive("Incompleted test");
-        //}
+        [TestMethod]
+        public void InCompleted_Test_Method()
+        {
+            Assert.Inconclusive("Incompleted test");
+        }
 
-        //[TestMethod]
-        //[Ignore]
-        //public void InCompleted_Test_Method_With_Ignore()
-        //{
-        //    Assert.Inconclusive("Incompleted test");
-        //}
+        [TestMethod]
+        [Ignore]
+        public void InCompleted_Test_Method_With_Ignore()
+        {
+            Assert.Inconclusive("Incompleted test");
+        }
     }
 }
