@@ -90,6 +90,7 @@ namespace BankTest
         }
 
         [TestMethod]
+        [Ignore]
         public void InCompleted_Test_Method()
         {
             Assert.Inconclusive("Incompleted test");
