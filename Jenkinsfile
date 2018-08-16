@@ -1,5 +1,9 @@
 pipeline {
-    agent any 
+    agent {
+		node {
+			customWorkspace 'C:\\Jenkins\\workspaces\\asp.net-example-scmpipeline'
+		}
+	}
     stages {
         stage('Build') {
             steps {
