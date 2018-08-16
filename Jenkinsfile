@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-				bat "C:\\Tools\\mstest\\MSTest.exe BankTest\\bin\\Debug\\BankTest.dll"
+				bat "C:\\Tools\\mstest\\MSTest.exe /resultsfile:BankTest.trx /noisolation /testcontainer:%WORKSPACE%\\BankTest\\bin\\Debug\\BankTest.dll"
             }
         }
         stage('Deploy') {
