@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Hello world!' 
+				bat "C:\\Tools\\mstest\\MSTest.exe BankTest\\bin\\Debug\\BankTest.dll"
             }
         }
         stage('Deploy') {
