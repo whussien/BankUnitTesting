@@ -1,7 +1,7 @@
 pipeline {
     agent {
 		node {
-			label "build node"
+			label "master"
 			customWorkspace "C:\\Jenkins\\workspaces\\asp.net-example-scmpipeline"
 		}
 	}
